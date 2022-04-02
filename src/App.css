@@ -4,7 +4,7 @@
 }
 
 .Coin{
-  width: 400px;
+  width: 50%;
   height: auto;
   background-color: #2e293a;
   color: white;
@@ -17,13 +17,13 @@
 
 .cryptoHeader{
   background-color: #5b4965;
-  margin-top: 0;
   display: flex;
   justify-content: center;
   align-content: center;
   align-items: center;
   flex-direction: column;
   box-shadow: 0px 3px 8px #2e293a;
+  width: 100%;
 }
 
 .cryptoDisplay{
@@ -41,6 +41,8 @@
 
 .cryptoHeader h1{
   color: white;
+  text-align: center;
+  font-size: 20px;
 }
 
 .cryptoHeader input{
