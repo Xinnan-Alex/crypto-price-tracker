@@ -5,8 +5,6 @@ import Coin from './components/Coin';
 
 function App() {
 
-  document.title="Cryto Land";
-
   const [listOfCoins,setListOfCoins] = useState([]);
   const [searchWord,setSearchWord] = useState("");
 
