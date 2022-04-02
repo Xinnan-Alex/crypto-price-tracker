@@ -31,7 +31,7 @@ export default function Homepage() {
        
       <div className='cryptoDisplay'>
         {filteredCoins.map((coin,key)=>{
-          return <Coin key={key} id={coin.id} name={coin.name} price={coin.price} symbol={coin.symbol} iconURL={coin.icon} />
+          return <Coin key={key} id={coin.id} name={coin.name} price={coin.price} symbol={coin.symbol} iconURL={coin.icon} rank={coin.rank}/>
         })}
       </div>
     </div>

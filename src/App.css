@@ -1,7 +1,12 @@
 :root{
   --cointanerColour: #3d354b;
-  --headerColour: #71627a;
+  --bodyColour: #71627a;
   --shadowColour: #2e293a;
+  --headerColour:#5b4965;
+}
+
+body{
+  background-color: var(--bodyColour);
 }
 
 .App {
@@ -19,6 +24,11 @@
   margin: 20px 20px 20px 20px;
   padding: 5px;
   text-align: center;
+}
+
+.Coin img{
+  width: 100px;
+  height: 100px;
 }
 
 .cryptoHeader{
@@ -99,6 +109,7 @@
 }
 
 .Currency{
+  height: 100%;
   display: flex;
   justify-content: center;
 }
