@@ -28,7 +28,7 @@ export default function Curency() {
         const fetchData = async()=>{
             try{
                 const response = await Axios.get(`https://api.coinstats.app/public/v1/coins/${id}`);
-                console.log(response.data);
+                // console.log(response.data);
                 setCoinData({
                     id:response.data.coin.id,
                     icon:response.data.coin.icon,
